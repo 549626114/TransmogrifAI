@@ -7,7 +7,7 @@
 TransmogrifAI (pronounced trăns-mŏgˈrə-fī) is an AutoML library written in Scala that runs on top of Apache Spark. It was developed with a focus on accelerating machine learning developer productivity through machine learning automation, and an API that enforces compile-time type-safety, modularity, and reuse.
 _Through automation, it achieves accuracies close to hand-tuned models with almost 100x reduction in time._
 
-Use TransmogrifAI if you need a machine learning library to:
+Use TransmogrifAI when a machine learning library is needed to:
 
 * Build production ready machine learning applications in hours, not months
 * Build machine learning models without getting a Ph.D. in machine learning
@@ -21,7 +21,7 @@ Skip to [Quick Start and Documentation](#quick-start-and-documentation).
 
 ## Predicting Titanic Survivors with TransmogrifAI
 
-The Titanic dataset is an often-cited dataset in the machine learning community. The goal is to build a machine learnt model that will predict survivors from the Titanic passenger manifest. Here is how you would build the model using TransmogrifAI:
+The Titanic dataset is an often-cited dataset in the machine learning community. The goal is to build a machine learnt model that will predict survivors from the Titanic passenger manifest. Here is how to build the model using TransmogrifAI:
 
 ```scala
 import com.salesforce.op._
@@ -118,12 +118,12 @@ Top model insights computed using CramersV:
 |-----------------------|----------------------|
 ```
 
-While this may seem a bit too magical, for those who want more control, TransmogrifAI also provides the flexibility to completely specify all the features being extracted and all the algorithms being applied in your ML pipeline. Visit our [docs site](https://docs.transmogrif.ai) for full documentation, getting started, examples, faq and other information.
+While this may seem a bit too magical, for those who want more control, TransmogrifAI also provides the flexibility to completely specify all the features being extracted and all the algorithms being applied in ML pipeline. Visit our [docs site](https://docs.transmogrif.ai) for full documentation, getting started, examples, faq and other information.
 
 
 ## Adding TransmogrifAI into your project
-You can simply add TransmogrifAI as a regular dependency to an existing project.
-Start by picking TransmogrifAI version to match your project dependencies from the version matrix below (if not sure - take the **stable** version):
+Everyone can simply add TransmogrifAI as a regular dependency to an existing project.
+Start by picking TransmogrifAI version to match project dependencies from the version matrix below (if not sure - take the **stable** version):
 
 | TransmogrifAI Version      | Spark Version | Scala Version | Java Version |
 |----------------------------|:-------------:|:-------------:|:------------:|
@@ -179,7 +179,7 @@ import com.salesforce.op.utils.spark.RichStructType._
 
 ## Quick Start and Documentation
 
-Visit our [docs site](https://docs.transmogrif.ai) for full documentation, getting started, examples, faq and other information.
+Visit [docs site](https://docs.transmogrif.ai) for full documentation, getting started, examples, faq and other information.
 
 See [scaladoc](https://scaladoc.transmogrif.ai) for the programming API.
 
